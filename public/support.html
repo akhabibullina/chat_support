@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>UWC, task for frontend developer</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link href="css/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/chat.css">
+      <link type="text/css" rel="stylesheet" href="js/lib/jquery-ui/css/ui-lightness/jquery-ui.min.css">
+
+      <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+   </head>
+
+   <body id="support">
+      <div class="navbar navbar-inverse navbar-fixed-top">
+         <div class="navbar-inner">
+            <div class="container">
+               <a class="brand" href="#">UWC, frontend developer Anna Khabibullina</a>
+               <p class="pull-right modal-header"> Support </p>
+            </div>
+         </div>
+      </div>
+      <canvas id="view-port"> </canvas>
+      <div class="container">
+         <div id="uwc">
+            <div id="greetings" class="hero-unit">
+               <h1>Hello, UWC World!</h1>
+               <p>This is a template for a simple support chat website.
+                  Once a client sends a message to support, an administrator gets an alert. Support can accept or decline a request depending on his/her mood.
+               </p>
+            </div>
+            <div id="uwc-chat-window"></div>
+            <div id="alert"> </div>
+         </div>
+      </div>
+
+      <!-- Javascript placed at the end of the document so the pages load faster -->
+      <script src="js/lib/jquery.min.js"></script>
+      <script src="js/lib/jquery-ui/js/jquery-ui.min.js"></script>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="js/jquery.chat.js"></script>
+      <script src="js/support.js"></script>
+   </body>
+
+</html>
