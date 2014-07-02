@@ -15,6 +15,6 @@
     "node-static":"latest",
     "socket.io":"latest"
   },
-  "author": "Eldar Djafarov <djkojb@gmail.com>",
+  "author": "Anna Khabibullina <ganna.khabibullina@gmail.com>",
   "license": "BSD"
 }
