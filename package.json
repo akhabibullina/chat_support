@@ -1,7 +1,7 @@
 {
-  "name": "socketAPI",
+  "name": "chat_socketAPI",
   "version": "0.0.0",
-  "description": "simple websocket API for UWC",
+  "description": "simple websocket API for UWC task",
   "main": "./api.js",
   "scripts": {
     "start": "node ./api.js",
